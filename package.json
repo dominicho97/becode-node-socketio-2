@@ -1,0 +1,25 @@
+{
+  "name": "becode-node-socketio-2",
+  "version": "1.0.0",
+  "description": "Second chat application with Heroku and Websockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominicho97/becode-node-socketio-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominicho97/becode-node-socketio-2/issues"
+  },
+  "homepage": "https://github.com/dominicho97/becode-node-socketio-2#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
