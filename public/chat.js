@@ -8,7 +8,8 @@ const socket = io.connect('http://localhost:4000');
 var message = document.getElementById('message'),
   handle = document.getElementById('handle'),
   btn = document.getElementById('send'),
-  output = document.getElementById('output');
+  output = document.getElementById('output'),
+  feedback = document.getElementById('feedback')
 
 
 
@@ -19,6 +20,11 @@ btn.addEventListener('click', function () {
     handle: handle.value
   })
   message.value = '';
+})
+
+
+message.addEventListener('keypress', function () {
+  socket.emit('typing', handle.value)
 })
 
 //Listen for events
