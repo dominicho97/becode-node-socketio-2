@@ -1,4 +1,4 @@
-//HEROKU 
+/*//HEROKU
 
 const express = require('express');
 const app = express();
@@ -16,3 +16,9 @@ app.get('/', function (req, res) {
 app.listen(port, function () {
   console.log("app running")
 });
+*/
+
+const express = require('express');
+
+//App setup
+const app = express();
